@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+} 
+
+.btn-doar button{
+    color:white;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #dda73a;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.block{
+    display: inline-block;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fonte-monserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+header a{
+    color:darkgrey;
+    text-decoration: none;
+    display:inline-block ;
+}
+
+header a:hover{
+    color:white;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 100px;
+}
+
+.logo{
+    width: 135px;
+    height: 135px;
+}
+
+.btn-doar button :hover{
+    box-shadow: 0px 0px 8px #fcbf44;;
+    transform: scale(1.02);
+}
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 38px;
+    line-height: 36px;
+}
+
+.img-doacao{
+    border-radius: 35px;
+    width: 500px;
+    height: 350px;
+}
+
+.topo-do-site .txt-topo-site p{
+    font-size: 21px;
+    color: white;
+    margin: 40px 0;
+}
+section.quem-somos {
+    margin-top: 136px;
+    background-color: #dda73a;
+    color: black;
+    padding: 40px 0;
+    border-radius: 25px;
+}
+
+.quem-somos .flex {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.quem-somos h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: white;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+
+.quem-somos p {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    font-weight: 490;
+
+}
+
+.quem-somos-text {
+    text-align: center;
+}
+
+.quem-somos-img {
+    display: flex;
+    justify-content: center; 
+}
+
+.quem-somos-img img {
+    width: 100%;
+    max-width: 500px; 
+    height: 320px;
+    border-radius: 15px;
+}
+
+.info-section {
+    border: 2px solid #dda73a;
+    margin-top: 100px;
+    color: #fff;
+    padding: 40px 0;
+    border-radius: 25px;
+}
+
+.info-section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #dda73a;
+    width: 25%;
+    margin: 0 auto 40px auto;
+    border-radius: 15px;
+}
+
+.info-section p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.sustentabilidade-box {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sustentabilidade-box img {
+    border-radius: 15px;
+    max-width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.sustentabilidade-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sustentabilidade-box p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media (max-width: 1200px) {
+    .form-row {
+        flex-direction: column; /* stacks rows vertically */
+    }
+}

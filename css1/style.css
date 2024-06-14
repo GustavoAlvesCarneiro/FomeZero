@@ -1,0 +1,135 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.botao-voltar {
+    display: inline-block;
+    background-color: #dda73a;
+    color: white;
+    width: 97%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body {
+    background: #121212;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.qr-code {
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    background: #dda73a;
+    padding: 24px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+.voltar{
+    text-align: center;
+}
+.form-content {
+    flex: 1;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.form-content label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-content input {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}
+
+.form-content a {
+    position: absolute;
+    bottom: -23px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: #dda73a;
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.form-content.error input {
+    border-color: red;
+}
+
+.form-content.error a {
+    color: red;
+    visibility: visible;
+}
+
+@media (max-width: 1200px) {
+    .form-row {
+        flex-direction: column;
+    }
+}
